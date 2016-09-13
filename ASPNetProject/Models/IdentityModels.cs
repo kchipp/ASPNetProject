@@ -31,5 +31,7 @@ namespace ASPNetProject.Models
         }
 
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Address> Address { get; set; }
     }
 }

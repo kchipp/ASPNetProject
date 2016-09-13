@@ -206,8 +206,13 @@
     <Compile Include="Migrations\201609131354309_User Model.Designer.cs">
       <DependentUpon>201609131354309_User Model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609131528543_Address.cs" />
+    <Compile Include="Migrations\201609131528543_Address.Designer.cs">
+      <DependentUpon>201609131528543_Address.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Address.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\User.cs" />
@@ -294,6 +299,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201609131354309_User Model.resx">
       <DependentUpon>201609131354309_User Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609131528543_Address.resx">
+      <DependentUpon>201609131528543_Address.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
