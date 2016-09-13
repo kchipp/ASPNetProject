@@ -29,5 +29,7 @@ namespace ASPNetProject.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<User> Users { get; set; }
     }
 }
