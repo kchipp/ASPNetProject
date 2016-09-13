@@ -210,19 +210,9 @@
     <Compile Include="Migrations\201609131528543_Address.Designer.cs">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Migrations\201609131651247_added registration fields.cs" />
     <Compile Include="Migrations\201609131651247_added registration fields.Designer.cs">
       <DependentUpon>201609131651247_added registration fields.cs</DependentUpon>
-=======
-    <Compile Include="Migrations\201609131550284_updateduser.cs" />
-    <Compile Include="Migrations\201609131550284_updateduser.Designer.cs">
-      <DependentUpon>201609131550284_updateduser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201609131627194_check.cs" />
-    <Compile Include="Migrations\201609131627194_check.Designer.cs">
-      <DependentUpon>201609131627194_check.cs</DependentUpon>
->>>>>>> d432821854b8af821d31907b92a08399dd9bd43b
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -317,16 +307,8 @@
     <EmbeddedResource Include="Migrations\201609131528543_Address.resx">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201609131651247_added registration fields.resx">
       <DependentUpon>201609131651247_added registration fields.cs</DependentUpon>
-=======
-    <EmbeddedResource Include="Migrations\201609131550284_updateduser.resx">
-      <DependentUpon>201609131550284_updateduser.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201609131627194_check.resx">
-      <DependentUpon>201609131627194_check.cs</DependentUpon>
->>>>>>> d432821854b8af821d31907b92a08399dd9bd43b
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
