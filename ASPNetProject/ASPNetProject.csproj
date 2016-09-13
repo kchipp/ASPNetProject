@@ -210,6 +210,14 @@
     <Compile Include="Migrations\201609131528543_Address.Designer.cs">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609131550284_updateduser.cs" />
+    <Compile Include="Migrations\201609131550284_updateduser.Designer.cs">
+      <DependentUpon>201609131550284_updateduser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201609131627194_check.cs" />
+    <Compile Include="Migrations\201609131627194_check.Designer.cs">
+      <DependentUpon>201609131627194_check.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -302,6 +310,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609131528543_Address.resx">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609131550284_updateduser.resx">
+      <DependentUpon>201609131550284_updateduser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609131627194_check.resx">
+      <DependentUpon>201609131627194_check.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
