@@ -65,6 +65,19 @@ namespace ASPNetProject.Models
     public class RegisterViewModel
     {
         [Required]
+        public string PhoneNumber { get; set; }
+
+        [Required]
+        public string FirstName { get; set; }
+
+        [Required]
+        public string LastName { get; set; }
+
+        [Required]
+        [Display (Name ="Check if registering as a customer.")]
+        public bool Customer { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

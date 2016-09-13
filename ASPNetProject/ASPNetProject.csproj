@@ -210,6 +210,10 @@
     <Compile Include="Migrations\201609131528543_Address.Designer.cs">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201609131651247_added registration fields.cs" />
+    <Compile Include="Migrations\201609131651247_added registration fields.Designer.cs">
+      <DependentUpon>201609131651247_added registration fields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -302,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201609131528543_Address.resx">
       <DependentUpon>201609131528543_Address.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201609131651247_added registration fields.resx">
+      <DependentUpon>201609131651247_added registration fields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
